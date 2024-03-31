@@ -22,7 +22,7 @@ function NavBar() {
             />
             <div className='hidden md:flex gap-6'>
                 <h2 className='hover:bg-gray-100 p-2
-                rounded-md cursor-pointer transition-all' onClick={()=>router.push('')}>Home</h2>
+                rounded-md cursor-pointer transition-all' onClick={()=>router.push('/')}>Home</h2>
                 <h2 className='hover:bg-gray-100 p-2
                 rounded-md cursor-pointer transition-all' onClick={()=>router.push('/About')}>About Us</h2>
                 <h2 className='hover:bg-gray-100 p-2
